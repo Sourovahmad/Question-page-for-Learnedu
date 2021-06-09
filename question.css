@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#QuestionPageSingleHeader{
+    background: rgb(12, 136, 109);
+}
+.total-page{
+    width: 70%;
+    margin: auto;
+}
+.top-part-qt{
+    align-items: center;
+}
+.top-part-qt .img-qt-logo img{
+    width: 200px;
+}
+.top-part-qt h1{
+    font-size: 45px;
+    text-shadow: 3px 3px 4px #000;
+    letter-spacing: 5px;
+}
+#QuestionPageSingleHeader .stars{
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.qt-section .qt h2{
+    font-size: 45px;
+    line-height: 45px;
+    padding: 40px 0;
+}
+#QuestionPageSingleHeader .options-and-img .qt-answers{
+    width: 40%;
+}
+#QuestionPageSingleHeader .options-and-img .qt-option{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    background: #00C6AC;
+    border-radius: 15px;
+    align-items: center;
+}
+#QuestionPageSingleHeader .options-and-img .qt-option .qt-number{
+    background: #00969B;
+    color: #000;
+    width: 80px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 15px 0 0 15px;
+    clip-path: polygon(0% 0%, 100% 0, 80% 50%, 100% 99%, 0% 100%);
+}
+#QuestionPageSingleHeader .options-and-img .qt-option .qt-ans {
+    padding: 18px;
+}
+#QuestionPageSingleHeader .options-and-img .qt-related-img{
+    width: 50%;
+}
+#QuestionPageSingleHeader .options-and-img .qt-related-img img{
+    width: 100%;
+}
+/* ALL RESPONSIVE HERE */
+@media screen and (max-width: 1024px) {
+    #QuestionPageSingleHeader .total-page{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 768px ) {
+    #QuestionPageSingleHeader .total-page{
+        width: 95%;
+    }
+    #QuestionPageSingleHeader .options-and-img .qt-related-img{
+        width: 90%;
+    }
+    #QuestionPageSingleHeader .options-and-img .qt-answers{
+        width: 90%;
+    }
+
+}
+.responsive-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* ALL RESPONSIVE HERE */
